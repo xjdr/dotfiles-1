@@ -72,16 +72,25 @@ brew install git
 brew install git-lfs
 brew install tree
 
+# Install and set up GO
+brew install go
+
+# Install and set up Python3
+brew install python3
+
+# Install Java
+brew cask install java
+brew install maven
+brew install infer
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
-
 # Brew cask
-
 brew cask install slack
 brew cask install chrome
 brew cask install emacs
-brew cask install java
+
 brew cask install atom
 brew cask install visual-studio-code
 brew cask install iterm2
